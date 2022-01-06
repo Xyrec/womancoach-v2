@@ -1,0 +1,1140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+/* 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif; 
+*/
+
+body {
+    background-color: #F5EDE9;
+    font-family: 'Lato', sans-serif;
+    color: #5f443a;
+}
+
+main {
+    /* max-width: 1080px; */
+    margin: 0 auto;
+}
+
+p {
+    line-height: 120%;
+}
+
+nav {
+    background-color: #F5EDE9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid#c4b5b1;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    z-index: 100;
+}
+
+#navbar {
+    height: 80px;
+    /* max-width: 1080px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+#logo img {
+    height: 65px;
+}
+
+#navlinks {
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#navlinks li {
+    margin-left: 2%;
+}
+
+#navlinks a {
+    text-decoration: none;
+    color: #5f443a;
+}
+
+#navlinks a:hover {
+    text-decoration: underline;
+}
+
+#navburger {
+    display: none;
+}
+
+#burgermenu a {
+    font-size: 20px;
+    color: #5f443a;
+    text-decoration: none;
+    padding: 4%;
+    border-top: 1px solid #5f443a;
+    display: block;
+}
+
+#burgermenu {
+    display: none;
+}
+
+.banner {
+    z-index: 99;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 720px;
+    margin-top: 80px;
+    background-position-y: 80px;
+}
+
+#forside {
+    background-image: url("../img/forside-banner.jpg");
+    background-position: top;
+}
+
+#kontakt {
+    background-image: url("../img/kontakt-banner.jpg");
+}
+
+#booking-banner {
+    background-image: url("../img/booking-banner.jpg");
+}
+
+#kvittering-banner {
+    background-image: url("../img/booking-banner.jpg");
+    min-height: 400px;
+}
+
+#priser-banner {
+    background-image: url("../img/priser-banner.jpg");
+    background-position: top;
+}
+
+#psykoterapi {
+    background-image: url("../img/psykoterapi.jpg");
+}
+
+#stresscoaching {
+    background-image: url("../img/stresscoaching-banner.jpg");
+    background-position: top;
+}
+
+#blog {
+    background-image: url("../img/blog-banner.jpg");
+    background-position: top;
+}
+
+.behandlingertop, .infotop, .omkringtop {
+    display: flex;
+    /* max-width: 1080px; */
+    margin: 0 auto;
+}
+
+.omkringtop {
+    margin-top: 80px;
+}
+
+iframe {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 720px;
+}
+
+.behandlingertekst {
+    width: 50%;
+    margin-top: 80px;
+    min-height: 600px;
+    background-color: #8C6F66;
+    color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.behandlingertekst p {
+    line-height: 150%;
+}
+
+.omkringtekst {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+.behandlingertekst>*, .infotekst>* {
+    margin: 0 8%;
+}
+
+.behandlingerbanner {
+    width: 50%;
+    background-position: 100% 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/behandlinger-banner.jpg");
+    margin-top: 80px;
+    min-height: 600px;
+}
+
+.behandlingerbanner:first-child, .infobanner:first-child {
+    display: none;
+}
+
+.infotekst {
+    width: 50%;
+    margin-top: 80px;
+    min-height: 600px;
+    background-color: #8C6F66;
+    color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.infotekst span {
+    font-weight: 700;
+}
+
+.infobanner {
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/hygge_stol.jpg");
+    margin-top: 80px;
+    min-height: 600px;
+}
+
+.divider {
+    background-color: #8C6F66;
+    min-height: 160px;
+    color: #e2e2e2;
+    text-align: center;
+}
+
+.divider h1 {
+    font-family: 'Lora', serif;
+    font-size: 48px;
+}
+
+.divider h2, .divider h3 {
+    padding: 0;
+}
+
+#quote h2 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    width: 66%;
+    padding: 2% 0;
+    font-weight: 400;
+    line-height: 130%;
+    font-style: italic;
+}
+
+#danskpsyk h2 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    width: 66%;
+    padding: 2% 0;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+#danskpsykcontent p {
+    font-size: 20px;
+    padding: 2% 0;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#danskpsykcontent img {
+    display: block;
+    margin: 0 auto;
+}
+
+.lektioner {
+    font-size: 20px;
+    padding: 2% 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.lektioner ul {
+    display: inline-block;
+    text-align: left;
+    list-style: disc;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.segment {
+    display: flex;
+}
+
+.segment>*, .introduction>* {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.segment p {
+    flex: auto;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 2%;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 2%;
+}
+
+#priserdisclaimer {
+    padding: 0 0 4%;
+    text-align: center;
+}
+
+#middlechoice {
+    margin: 4% 0;
+}
+
+#priser aside {
+    background-color: #D9CEC3;
+    padding: 6% 2%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    border: 2px solid #5f443a;
+}
+
+#priser aside>* {
+    margin-top: 5%;
+}
+
+#priser p {
+    font-size: 20px;
+}
+
+#priser, #hover {
+    text-align: center;
+}
+
+#hover aside {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    height: 200px;
+    margin-top: 0;
+}
+
+#hover aside:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+}
+
+.ompunkter aside:first-child {
+    background-image: url("../img/ambition.jpeg");
+}
+
+.ompunkter aside:nth-child(2) {
+    background-image: url("../img/styrke.jpg");
+}
+
+.ompunkter aside:last-child {
+    background-image: url("../img/motivation.png");
+}
+
+.kontaktpunkter aside:first-child {
+    background-image: url("../img/kontakt-banner.jpg");
+}
+
+.kontaktpunkter aside:nth-child(2) {
+    background-image: url("../img/walkandtalk.jpg");
+}
+
+.kontaktpunkter aside:last-child {
+    background-image: url("../img/online.jpg");
+}
+
+#hover h2 {
+    background-color: rgba(226, 226, 226, 0.8);
+    border-radius: 10px;
+    padding: 2%;
+    user-select: none;
+}
+
+#hover aside:nth-child(2) {
+    margin: 0;
+}
+
+.choices aside {
+    padding: 2%;
+    margin: 4% 8%;
+    flex: 1 1 0px;
+}
+
+.choices aside>* {
+    display: block;
+}
+
+.choices aside:first-child {
+    margin-right: 4%;
+}
+
+.choices aside:last-child {
+    margin-left: 4%;
+}
+
+.choices img {
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.border>aside {
+    /* border: 1px solid #5f443a; */
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}
+
+#behandlingerintro {
+    padding-bottom: 0;
+}
+
+.readmore {
+    text-decoration: none;
+    font-size: 24px;
+    color: #5f443a;
+    font-weight: 700;
+    padding-top: 2%;
+}
+
+.readmore:hover {
+    text-decoration: underline;
+}
+
+.introduction {
+    background-image: url("../img/forside-stinebache.jpg");
+    height: 500px;
+    display: flex;
+    justify-content: end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introduction aside {
+    background-color: rgba(245, 237, 233, 0.80);
+    width: 40%;
+    padding: 2%;
+    margin-left: 0;
+    justify-content: center;
+    text-align: justify;
+}
+
+.introduction p {
+    line-height: 150%;
+}
+
+.buttons {
+    padding: 3% 0 1%;
+}
+
+.dividercontent {
+    padding: 2%;
+}
+
+.dividercontent span {
+    font-style: italic;
+}
+
+.dividercontent p {
+    font-size: 18px;
+    padding-top: 1%;
+}
+
+.centercontent {
+    width: 60%;
+    margin: 0 auto;
+    padding: 4% 0;
+}
+
+.centercontent h2 {
+    text-align: center;
+}
+
+.centercontent p {
+    padding-bottom: 2%;
+}
+
+.centercontent ul {
+    padding-bottom: 2%;
+}
+
+.centercontent li {
+    list-style: disc;
+    list-style-position: inside;
+    font-weight: 700;
+    padding-bottom: 1%;
+}
+
+.centercontent li span {
+    font-weight: 400;
+}
+
+.centercontent span {
+    font-style: italic;
+}
+
+.altcolor {
+    background-color: #D9CEC3;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.altcolor h2:nth-child(3) {
+    border-top: 2px solid #8C6F66;
+    padding-top: 2%;
+    margin-top: 1%;
+}
+
+.erfaringpunkt {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1080px;
+    align-items: center;
+}
+
+.reversed {
+    direction: rtl;
+}
+
+.erfaringtekst, .erfaringdato {
+    flex: 1;
+    padding: 2%;
+}
+
+.erfaringtekst {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+.erfaringdato {
+    text-align: start;
+}
+
+.erfaringikon {
+    background-image: url("../img/icons/calendar.png");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f8f8f8;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    margin: 2%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    padding: 0;
+}
+
+#booking {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+#booking section {
+    padding-bottom: 2%;
+    margin: 0 auto;
+    width: 300px;
+    text-align: left;
+}
+
+#booking select {
+    border-radius: 10px;
+    border-style: none;
+    width: 310px;
+    padding: 5px;
+    margin: 2px 0 20px;
+    height: 50px;
+    font-size: 18px;
+    color: #5F443A;
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f8f8;
+}
+
+#booking aside {
+    text-align: start;
+    flex-direction: column;
+    display: inline-flex;
+    margin: 0 2%;
+}
+
+#booking input {
+    border-radius: 10px;
+    border-style: none;
+    width: 300px;
+    padding: 5px;
+    margin: 2px 0 20px;
+    height: 40px;
+    font-size: 18px;
+    color: #5F443A;
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f8f8;
+}
+
+#booking label {
+    font-size: 24px;
+    display: block;
+}
+
+#booking textarea {
+    border-radius: 10px;
+    border-style: none;
+    resize: none;
+    height: 238px;
+    width: 300px;
+    margin: 2px 0;
+    font-size: 18px;
+    color: #5F443A;
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f8f8;
+}
+
+#booking textarea, #booking input {
+    outline: none;
+}
+
+#booking #btn {
+    background-color: #8C6F66;
+    color: #f8f8f8;
+    font-size: 24px;
+    height: auto;
+    width: auto;
+    padding: 5px 30px;
+    margin: 20px 0;
+}
+
+#booking #btn:hover {
+    background-color: #74584e;
+}
+
+.btn {
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #5f443a;
+    font-size: 24px;
+    background: #DDC7B2;
+    padding: 5px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 2%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #a7927d;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #372D29;
+    color: #e2e2e2;
+}
+
+.footercontent {
+    margin: 0 auto;
+    padding: 4% 0;
+    max-width: 1080px;
+}
+
+.footertop {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.footertop p:first-child, .footertop p:last-child {
+    font-size: 24px;
+    flex: 1;
+    align-self: flex-end;
+}
+
+.footermiddle, .footerbottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+.footermiddle p:nth-child(2) {
+    text-align: center;
+}
+
+.footertop p:last-child, .footermiddle p:last-child {
+    text-align: end;
+}
+
+.footermiddle p:first-child, .footermiddle p:last-child {
+    flex: 1;
+}
+
+.footerbottom img {
+    height: 64px;
+    object-fit: contain;
+}
+
+#boxContainer {
+    z-index: 101;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    display: none;
+}
+
+#boxContent {
+    background-color: #F5EDE9;
+    z-index: 102;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    transform: translateY(-50%) translateX(50%);
+}
+
+#boxContent>* {
+    padding: 4%;
+}
+
+#boxTitle {
+    padding: 0;
+}
+
+#boxTop {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+
+#boxClose {
+    font-size: 30px;
+    cursor: pointer;
+    width: 25px;
+}
+
+#boxText {
+    font-size: 20px;
+}
+
+#boxClose:hover {
+    color: rgb(197, 45, 45);
+}
+
+.blog-content {
+    margin-top: 80px;
+}
+
+.blog-content img {
+    width: 80%;
+    margin: 2% auto;
+    display: block;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}
+
+.blog-content a {
+    color: #5f443a;
+    text-decoration: none;
+}
+
+.blog-content a:hover {
+    text-decoration: underline;
+}
+
+.blog-content h1 {
+    background-color: white;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    padding: 2% 1%;
+    margin: 2% 0;
+}
+
+.blog-entry {
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    padding: 2%;
+    display: inline-flex;
+    margin-bottom: 2%;
+}
+
+.blog-entry img {
+    width: 100%;
+}
+
+.blog-entry-img {
+    flex: 1;
+    margin-right: 2%;
+}
+
+.blog-entry-text {
+    flex: 2;
+}
+
+.blog-entry-text .readmore {
+    font-size: 20px;
+}
+
+.blog-entry h2 {
+    text-align: left;
+}
+
+.older-blogs {
+    text-decoration: none;
+    color: #5F443A;
+    padding-top: 1%;
+}
+
+.older-blogs:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+    iframe {
+        height: 400px;
+    }
+
+    #navburger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 60px;
+        cursor: pointer;
+    }
+
+    .navburger-btn {
+        width: 50px;
+        height: 5px;
+        background: #5F443A;
+        border-radius: 2px;
+        transition: all .25s ease-in-out;
+    }
+
+    .navburger-btn::before, .navburger-btn::after {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 5px;
+        background: #5F443A;
+        border-radius: 2px;
+        transition: all .25s ease-in-out;
+    }
+
+    .navburger-btn::before {
+        transform: translateY(-12px);
+    }
+
+    .navburger-btn::after {
+        transform: translateY(12px);
+    }
+
+    #navburger.open .navburger-btn {
+        background: transparent;
+    }
+
+    #navburger.open .navburger-btn::before {
+        transform: rotate(45deg);
+    }
+
+    #navburger.open .navburger-btn::after {
+        transform: rotate(-45deg);
+    }
+
+    .footertop {
+        display: block;
+        text-align: center;
+    }
+
+    .footertop p:last-child {
+        display: none;
+    }
+
+    .footermiddle {
+        display: block;
+    }
+
+    .footermiddle>* {
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .footermiddle p:last-child {
+        text-align: center;
+    }
+
+    .footerbottom {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .SoMebuttons {
+        margin: 0 auto;
+    }
+
+    #navlinks {
+        display: none;
+    }
+
+    .erfaringdato {
+        flex: 0;
+    }
+
+    .erfaringikon {
+        order: 1;
+    }
+
+    .erfaringtekst {
+        margin: 2%;
+        border-radius: 10px;
+    }
+
+    .choices aside:first-child {
+        margin: 4%;
+    }
+
+    .choices aside:last-child {
+        margin: 4%;
+    }
+
+    .reversed {
+        direction: initial;
+    }
+
+    #quote h2 {
+        width: 90%;
+    }
+
+    #danskpsyk h2 {
+        width: 90%;
+    }
+
+    .centercontent {
+        width: 90%;
+    }
+
+    #hover aside, #hover aside:nth-child(2) {
+        margin: 6%;
+    }
+
+    .segment {
+        display: block;
+    }
+
+    #priser aside {
+        margin: 4%;
+    }
+
+    .footercontent {
+        padding: 6% 0;
+    }
+
+    .infotekst {
+        padding: 6% 0;
+    }
+
+    .behandlingerbanner, .infobanner {
+        margin-top: 80px;
+    }
+
+    .behandlingertekst, .infotekst {
+        margin-top: 0;
+    }
+
+    .behandlingerbanner:first-child, .infobanner:first-child {
+        display: block;
+    }
+
+    .behandlingerbanner:last-child, .infobanner:last-child {
+        display: none;
+    }
+
+    .behandlingertop, .infotop {
+        display: block;
+    }
+
+    .behandlingerbanner, .infobanner {
+        width: 100%;
+        min-height: 400px;
+    }
+
+    .behandlingertekst, .infotekst {
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .behandlingertekst>*, .infotekst>* {
+        margin: 0 6%;
+    }
+
+    #boxContent {
+        width: 80%;
+        transform: translateY(-50%) translateX(12.5%);
+    }
+
+    .blog-entry {
+        display: block;
+        margin-bottom: 4%;
+    }
+
+    .blog-entry img {
+        width: 100%;
+    }
+
+    .blog-entry-img {
+        margin-right: 0;
+        margin-bottom: 1%;
+    }
+
+    .blog-content img {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    iframe {
+        height: 300px;
+    }
+
+    .banner {
+        background-attachment: inherit;
+        min-height: 300px;
+        background-position-y: 0;
+    }
+
+    .footercontent {
+        padding: 10% 0;
+    }
+
+    .divider {
+        min-height: 100px;
+    }
+
+    .dividercontent {
+        padding: 4%;
+    }
+
+    .divider h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .blog-content h1 {
+        font-size: 28px;
+    }
+
+    #quote h2 {
+        font-size: 24px;
+        width: 90%;
+    }
+
+    .buttons {
+        padding: 5% 0;
+    }
+
+    .btn {
+        font-size: 24px;
+    }
+
+    .introduction {
+        display: inline-flex;
+        height: 750px;
+        background-position: 30%;
+    }
+
+    .introduction aside {
+        background-color: inherit;
+        width: 100%;
+        margin: 0;
+        padding: 6%;
+        justify-content: end;
+    }
+
+    .introduction p {
+        line-height: 120%;
+    }
+
+    .introduction aside>* {
+        padding: 2%;
+        background-color: #00000050;
+        color: #e2e2e2;
+    }
+
+    .choices aside {
+        margin: 4%;
+    }
+
+    #danskpsyk h2 {
+        width: 100%;
+        padding: 6%;
+        font-size: 24px;
+    }
+
+    .erfaringikon {
+        display: none;
+    }
+
+    .erfaringpunkt {
+        display: grid;
+    }
+
+    .erfaringdato {
+        order: -1;
+        text-align: center;
+    }
+
+    #danskpsykcontent p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .lektioner {
+        font-size: 20px;
+    }
+
+    .behandlingertekst p {
+        line-height: 120%;
+    }
+
+    #boxText {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOMANCOACH - Book din næste tid</title>
+    <meta name="description"
+        content="Stine Bache's Womancoach giver dig muligheden for stresscoaching og psykoterapi online eller in-person i Holbæk.">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <div id="navbar">
+            <div id="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Stine Bache's Womancoach Logo">
+                </a>
+            </div>
+            <ul id="navlinks">
+                <li><a href="hvemerjeg.html">Hvem er jeg?</a></li>
+                <li><a href="behandlinger.html">Behandlinger</a></li>
+                <li><a href="priser.html">Priser</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+            <div id="navburger">
+                <div class="navburger-btn"></div>
+            </div>
+        </div>
+        <div id="burgermenu">
+            <ul>
+                <li><a href="hvemerjeg.html">Hvem er jeg?</a></li>
+                <li><a href="behandlinger.html">Behandlinger</a></li>
+                <li><a href="priser.html">Priser</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="banner" id="booking-banner"></div>
+    <header class="divider header">
+        <h1>Book din næste konsultation</h1>
+    </header>
+    <main>
+        <section class="centercontent">
+            <h2>Klar til at finde vejen til en bedre hverdag?</h2>
+            <p>Book en tid og lad mig hjælpe dig i mål - vælg den dato og klokkeslæt der passer dig bedst, så kontakter
+                jeg dig
+                snarest muligt, så vi kan få aftalt det endelige tidspunkt.</p>
+        </section>
+        <section class="altcolor">
+            <form action="kvittering.html" id="booking">
+                <h2>Tidsbestilling</h2>
+                <div>
+                    <div>
+                        <label for="bookingDate">Vælg din dato:</label>
+                        <input id="bookingDate" type="date" required />
+                    </div>
+                    <div>
+                        <label for="bookingTime">Vælg tidspunkt:</label>
+                        <select name="bookingTime" id="bookingTime">
+                            <option value="09:00-09:55">09:00-09:55</option>
+                            <option value="10:00-10:55">10:00-10:55</option>
+                            <option value="11:00-11:55">11:00-11:55</option>
+                            <option value="12:00-12:55">12:00-12:55</option>
+                            <option value="13:00-13:55">13:00-13:55</option>
+                            <option value="14:00-14:55">14:00-14:55</option>
+                            <option value="15:00-15:55">15:00-15:55</option>
+                            <option value="16:00-16:55">16:00-16:55</option>
+                        </select>
+                    </div>
+                </div>
+                <h2>Oplysninger</h2>
+                <aside>
+                    <label for="bookingName">Navn</label>
+                    <input id="bookingName" type="text" required />
+                    <label for="bookingEmail">E-mail</label>
+                    <input id="bookingEmail" type="email" required />
+                    <label for="bookingTele">Telefon</label>
+                    <input id="bookingTele" type="tel" pattern="[0-9]{8}" required />
+                </aside>
+                <aside>
+                    <label for="bookingComment">Kommentar</label>
+                    <textarea id="bookingComment" name="bookingComment"></textarea>
+                </aside>
+                <div>
+                    <input type="submit" id="btn" class="btn" value="Bestil tid">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footercontent">
+            <div class="footertop">
+                <p>Stine Bache</p>
+                <p>WOMANCOACH © 2021</p>
+                <p>Kontakt</p>
+            </div>
+            <div class="footermiddle">
+                <p>Psykoterapeut MPF og coach<br>
+                    Medlem af Dansk Psykoterapeutforening</p>
+                <p>Kalundborgvej 87, 1.sal<br>
+                    4300 Holbæk</p>
+                <p>kontakt@womancoach.dk<br>
+                    Tel: 20 92 99 01</p>
+            </div>
+            <div class="footerbottom">
+                <img src="img/icons/DPF_logo.png" alt="Dansk Psykoterapeutforening logo">
+                <div class="SoMebuttons">
+                    <a href=""><img src="img/icons/instagram.png" alt="Instagram transparent logo"></a>
+                    <a href=""><img src="img/icons/facebook.png" alt="Facebook transparent logo"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>
