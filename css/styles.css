@@ -320,7 +320,7 @@ h3 {
     background-color: #D9CEC3;
     padding: 6% 2%;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
-    border: 2px solid #5f443a;
+    border: 1px solid #5f443a;
 }
 
 #priser aside>* {
@@ -376,6 +376,8 @@ h3 {
 }
 
 #hover h2 {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+
     background-color: rgba(226, 226, 226, 0.8);
     border-radius: 10px;
     padding: 2%;
@@ -406,7 +408,9 @@ h3 {
 
 .choices img {
     width: 100%;
-    padding-bottom: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
 }
 
 .border>aside {
@@ -455,6 +459,18 @@ h3 {
     line-height: 150%;
 }
 
+.introduction a {
+    padding-top: 2%;
+    text-decoration: none;
+    color: #5f443a;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.introduction a:hover {
+    text-decoration: underline;
+}
+
 .buttons {
     padding: 3% 0 1%;
 }
@@ -484,6 +500,7 @@ h3 {
 
 .centercontent p {
     padding-bottom: 2%;
+    line-height: 150%;
 }
 
 .centercontent ul {
@@ -745,6 +762,7 @@ footer {
 
 #boxText {
     font-size: 20px;
+    line-height: 150%;
 }
 
 #boxClose:hover {
@@ -753,6 +771,11 @@ footer {
 
 .blog-content {
     margin-top: 80px;
+}
+
+.blog-content p, li {
+    line-height: 180%;
+    font-size: 18px;
 }
 
 .blog-content img {
@@ -789,11 +812,13 @@ footer {
     border-radius: 10px;
     padding: 2%;
     display: inline-flex;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 .blog-entry img {
     width: 100%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
 }
 
 .blog-entry-img {
@@ -803,6 +828,11 @@ footer {
 
 .blog-entry-text {
     flex: 2;
+}
+
+.blog-entry-text p {
+    font-size: 18px;
+    line-height: 150%;
 }
 
 .blog-entry-text .readmore {
