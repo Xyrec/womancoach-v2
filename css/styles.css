@@ -88,7 +88,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 600px;
     margin-top: 80px;
     background-position-y: 80px;
 }
@@ -160,7 +160,7 @@ iframe {
 }
 
 .behandlingertekst p {
-    line-height: 150%;
+    line-height: 180%;
 }
 
 .omkringtekst {
@@ -554,6 +554,7 @@ h3 {
     background-color: #f8f8f8;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    line-height: 120%;
 }
 
 .erfaringdato {
