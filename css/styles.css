@@ -16,7 +16,7 @@ main {
 }
 
 p {
-    line-height: 120%;
+    line-height: 150%;
 }
 
 nav {
@@ -790,6 +790,8 @@ footer {
 .blog-content a {
     color: #5f443a;
     text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .blog-content a:hover {
